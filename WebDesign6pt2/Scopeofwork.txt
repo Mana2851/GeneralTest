@@ -1,0 +1,32 @@
+Scope of work for project6
+
+Definition of project: This project is about creating a functioning website while learning how to use bootstrap effectively. 
+As well as provide more realistic examples of dealing with a client who you would be dealing with in the real world. 
+Gathering information from your client and finding out what your client wants
+
+
+Times and costs:
+Costs should round out to about $800.00
+	Schedule:
+		Proposed solutions - 10/4
+		Wire Frame – 10/4
+		Site Map – 10/4
+		Schedule – 10/6
+		Budget – 10/6
+		StyleGuide – 
+		Scope of work – 10/6
+
+	Projected:
+		Code - 10/6 - 10/9
+		Implementing Photos 10/8 - 10/9
+		Implementing Suggested information 10/8 - 10/9
+		
+		
+
+proposed solutions:
+Include a single navigational web page with navigation bar at the top that sends you to the desired spot which each link of the navigation bar. 
+Either an about the company right at the top or an appealing picture. 
+Followed by a small slide show of images and small bits of information for the images that move. 
+After that I would suggest the real meat of the information be here columned up easier to digest parts. 
+2 or 3 columns as to not make the columns run on and on. 
+After that maybe external links to forms of social media. IE facebook twitter ect ect 

@@ -1,0 +1,9 @@
+Objectives:
+	The objective for this website is to show off the Oculus Rift and the Ti-86 calculater, giving info on the two products.
+This is the case because in order make an uninterested/potential costamer interested in the two products.
+Ultemetly, convincing the person(s) into buying said products.
+
+Scheduling:
+	Sept 16: Went to reaserching the products, image finding/ color selections
+	Sept 17: wire frames/ objectives, site map
+	Sept 18: Web page creation and application of info

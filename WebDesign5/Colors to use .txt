@@ -1,0 +1,9 @@
+white 		#F5F5F5
+off white 	#C3D7DF
+lime green	#AADCD2
+deep grey	#F1AA90
+darker grey	#67727A
+tan brown	#BEB9AD
+orangy		#F1AA90
+gray blue	#A2B1C1
+deep blue	#6991AC

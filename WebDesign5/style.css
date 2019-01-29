@@ -1,0 +1,392 @@
+@import 'https://fonts.googleapis.com/css?family=Alegreya+Sans';
+
+
+
+/*reset all style to basic*/
+* {
+	margin: 0;
+	padding: 0;
+	boarder: 0;
+}
+
+body {
+	background-color: #F5F5F5;
+	color: #67727A;
+	font-family: 'Alegreya', sans-serif;
+	margin: 0;
+}
+
+h2 {
+	font-size: 250%;
+	font-weight: 700;
+	text-align: center;
+	padding-top: 2%;
+}
+
+h3 {
+	font-size: 175%;
+	line-hight: 155%;
+	padding: 5% 0;
+	font-weight: 400%;
+}
+h5 {
+	text-align: center;
+}
+
+p {
+	font-family: 'Alegreya', sans-serif;
+	font-size: 160%%;
+	line-hight: 150%;
+	padding: 3%;
+	text-indent: 2%;
+	text-align: justify;
+}
+
+img {
+	max-width: 100%;
+	hight: auto;
+	width: auto;
+	margrin-bottom: -4px;
+	padding-top: 2%;
+}
+
+header {
+	/*the background color of the navigation bar*/
+	background-color: #67727A;
+	width: 100%;
+	height: 86px;
+}
+
+#header-inner {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+#logo {
+	margin: 20px;
+	float: left;
+	width: 200px;
+	height: 60px;
+	/*link to logo picture alter picture*/
+	background: url(img/phlogo.png) no-repeat center;
+}
+
+/*--- Navigation ---*/
+
+nav{
+	float: right;
+	padding: 25px 25px 0 0;
+}
+
+/*---mobile navigation ---*/
+#menu-icon {
+	display: hidden;
+	width: 40px;
+	height: 40px;
+	/*link to picture alter picture*/
+	background: url(img/nav.png) center;
+}
+
+/* hovering over the menu icon causes this*/
+a:hover#menu-icon {
+	border-radius: 4px 4px 0 0;
+}
+
+/*styleing the unordered list and items*/
+ul {
+	list-style-type: none;
+}
+
+/*styleing the unordered list items*/
+nav ul li {
+	font-family: 'Alegreya', sans-serif;
+	font-size: 150%;
+	display: inline-block;
+	float: left;
+	padding: 10px;
+}
+
+/* MAIN MENU text */
+nav ul li a {
+	color: #C3D7DF;
+	text-decoration: none;
+}
+
+/* hovering over the MAIN MENU causes this */
+nav ul li a:hover {
+	color: #F5F5F5;
+}
+
+.current {
+	color: #C3D7DF;
+}
+/*--- End of navigation ---*/
+
+/*--- start of banner --*/
+.banner {
+	width: 100%;
+	background-color: #6991AC;
+}
+
+.banner-inner {
+	max-width: 1100px;
+	margin: 0 auto;
+}
+
+.one-fourth {
+	width: 25%;
+	float: left;
+	text-align: center;
+}
+
+#column1 {
+	background-color: #AADCD2;
+}
+
+#column2 {
+	background-color: #F1AA90;
+}
+
+#column3 {
+	background-color: #BEB9AD;
+}
+
+#column4 {
+	background-color: #C3D7DF;
+}
+
+.one-fourth i {
+	font-size: 500%;
+	padding: 13% 0 4% 0;
+}
+
+.inner-wrapper {
+	float: left;
+	width: 100%;
+	background-color: #C3D7DF;
+}
+
+article {
+	float: left;
+	margin: 0 auto;
+	width: 50%;
+	height: auto;
+}
+
+#generic1img {
+	background-color: #C3D7DF;
+}
+
+aside {
+	float: right;
+	margin: 0 auto;
+	width: 50%;
+	height auto;
+}
+
+#generic1txt {
+	background-color: #A2B1C1;
+}
+
+#generic2txt {
+	background-color: #BEB9AD;
+}
+
+#generic3txt {
+	background-color: #F1AA90;
+}
+
+.inner-wrapper-2 {
+	float: left;
+	width: 100%;
+	background-color: #C3D7DF;
+}
+
+.inner-wrapper-3 {
+	float: left;
+	width: 100%;
+	background-color: #AADCD2;
+}
+
+.one-third {
+	width: 33.3333333%;
+	float: left;
+	text-align: center;
+}
+
+#moregenerictxt1 {
+	background-color: #A2B1C1;
+}
+
+#moregenerictxt2 {
+	background-color: #BEB9AD;
+}
+
+#moregenerictxt3 {
+	background-color: #AADCD2;
+}
+
+/*--- footer is now starting ---*/
+footer {
+	background-color: #67727A;
+	width: 100%;
+}
+
+.social {
+	list-style-type: none;
+	text-align: center;
+}
+
+.social li {
+	display: inline;
+}
+
+.social i {
+	font-size: 460%;
+	margin: 1%;
+	padding: 5%;
+	color: #C3D7DF;
+}
+
+.social i:hover {
+	color: #F5F5F5;
+}
+
+/*----media quereies starting ---*/
+/* mobile stuff */
+
+@media screen and (max-width: 768px) {
+	h2 {
+		font-size: 150%;
+	}
+
+	h3 {
+		font-size: 125%;
+	}
+
+	h5 {
+		text-align: center;
+	}
+
+	p {
+		font-size: 120%%;
+	}
+
+	header {
+		position: absolute;
+	}
+
+	#logo {
+		margin: 15px 0 20px -25px;
+		background: url(img/phmoilbelogo.png) no-repeat center;	
+	}
+
+	#menu-icon {
+		display: inline-block;
+	}
+
+	nav ul, nav:active ul {
+		display: none;
+		z-index: 1000;
+		positon: absolute;
+		padding: 20px;
+		background-color: #6991AC;
+		margin-right: 20px;
+		margin-top: 60px;
+		border: 1px solid #FFF;
+		border-radius: 2px 0 2px 2px;
+		width: 50%;
+
+	}
+	nav:hover ul {
+		display: block;
+	}
+	nav li {
+		text-align: center;
+		width: 100%;
+		padding: 10px 0;
+	}
+	.banner {
+		padding-top: 86px;
+	}
+	.one-fourth {
+		float: left;
+		width: 100%;
+	}
+	.one-fourth i {
+		font-size: 350%;
+		padding: 4% 0 1% 0;
+	}
+	article {
+		width: 100%;
+	}
+	aside {
+		width: 100%;
+	}
+	.hand-mobile {
+		display: none;
+	}
+	.one-third {
+	width: 100%;
+	}
+	.social i {
+		font-size: 180%;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
